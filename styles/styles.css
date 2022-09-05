@@ -1,0 +1,289 @@
+:root {
+  --main-black-color: #000000;
+  --headers-font: "Raleway", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f7fa;
+  color: var(--main-black-color);
+}
+
+/* main styles */
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+/* left sidebar */
+.sidebar {
+  background-color: #1e2939;
+  padding-top: 40px;
+  width: 370px;
+}
+
+.sidebarTitle,
+.land-experience-title {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+.contacts {
+  margin-bottom: 50px;
+  margin-left: 40px;
+}
+
+.technicalSkills,
+.land-experience {
+  margin-left: 40px;
+  margin-bottom: 45px;
+}
+
+.softSkills {
+  margin-left: 40px;
+}
+
+.contactType {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 10px;
+}
+
+.contactLink {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: white;
+}
+
+.pContUpper {
+  margin-bottom: 5px;
+}
+
+.pContLower {
+  margin-top: 5px;
+}
+
+.softSkillsUl,
+.techSkillsList,
+.land-experience-list {
+  color: white;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.softSkillsLi,
+.techSkillsLi,
+.land-experience-li {
+  color: #fb6d3a;
+}
+
+.softSkillsContents,
+.techSkillsContents,
+.land-experience-contents {
+  color: white;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* main content (on the right side of the screen) */
+.mainContent {
+  background-color: white;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 105px 90px;
+}
+
+/* about styles */
+.about {
+  margin-bottom: 40px;
+}
+
+.aboutPosition {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.3;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.aboutName {
+  font-style: normal;
+  font-size: 45px;
+  line-height: 1.3;
+  color: var(--main-black-color);
+  font-family: var(--headers-font);
+  margin-bottom: 25px;
+}
+
+.aboutDescription {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: var(--main-black-color);
+  width: 400px;
+}
+
+.CVSectionTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.titleRemark {
+  color: #a8a8a8;
+}
+
+/* projects styles */
+.projects {
+  margin-bottom: 50px;
+}
+
+.projectsOL {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.projectsLi {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.projectsLiContentLink {
+  margin-left: 15px;
+}
+
+.projectsLiContentLink,
+.projectsLiContent {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--main-black-color);
+}
+
+.experienceCompanyLink:hover {
+  color: blue;
+  text-decoration: underline;
+  cursor: zoom-in;
+}
+
+.projectsLiContentBracket {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.work {
+  margin-bottom: 45px;
+}
+
+.position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.experienceCompanyLink {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  text-decoration: none;
+}
+
+.educationPeriod,
+.workPeriod {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 1.4;
+  color: var(--main-black-color);
+}
+
+.separationPipe {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.dutiesUL {
+  padding: 0;
+  margin-left: 20px;
+}
+
+.dutiesLi {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-black-color);
+}
+
+/* education styles */
+.education {
+  margin-bottom: 40px;
+}
+
+.educationInstitution {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin-bottom: 10px;
+}
+
+.educationCourse {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.educationUL {
+  padding: 0;
+  margin-left: 20px;
+}
+
+.educationPeriod {
+  margin-top: 10px;
+}
+
+.staniPhoto {
+  width: 370px;
+  margin-bottom: 50px;
+}
+
+footer {
+  text-align: center;
+  text-justify: auto;
+  margin-top: 10px;
+  color: var(--main-black-color);
+}
