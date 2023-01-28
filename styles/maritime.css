@@ -48,14 +48,12 @@ ul {
   margin-left: 40px;
 }
 
+.education,
+.softSkills,
 .technicalSkills,
 .land-experience {
   margin-left: 40px;
-  margin-bottom: 45px;
-}
-
-.softSkills {
-  margin-left: 40px;
+  margin-bottom: 40px;
 }
 
 .contactType {
@@ -82,6 +80,7 @@ ul {
   margin-top: 5px;
 }
 
+.education-list,
 .softSkillsUl,
 .techSkillsList,
 .land-experience-list {
@@ -90,12 +89,14 @@ ul {
   margin-left: 20px;
 }
 
+.education-list__item,
 .softSkillsLi,
 .techSkillsLi,
 .land-experience-li {
   color: #fb6d3a;
 }
 
+.education-list__content,
 .softSkillsContents,
 .techSkillsContents,
 .land-experience-contents {
